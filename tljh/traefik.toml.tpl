@@ -69,5 +69,5 @@ entryPoint = "https"
 {% endif %}
 
 [file]
-filename = "rules.toml"
+directory = "dynamic"
 watch = true
