@@ -16,6 +16,7 @@ ProtectKernelTunables=yes
 ProtectKernelModules=yes
 ReadWritePaths={install_prefix}/state/dynamic/rules.toml
 ReadWritePaths={install_prefix}/state/dynamic/isso.toml
+ReadWritePaths={install_prefix}/state/dynamic/zeppelin.toml
 ReadWritePaths={install_prefix}/state/acme.json
 WorkingDirectory={install_prefix}/state
 ExecStart={install_prefix}/hub/bin/traefik \
